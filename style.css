@@ -37,9 +37,9 @@ header{
     padding-right:30px;
 }
 #first{
-    background-image:url('./resources/first-small.png');
-    width:100%;
-    background-size: 100% auto;
+    background-image:url('./resources/main.png');
+    
+    background-size: auto 100%;
     min-height:500px;
     background-repeat: no-repeat
 }
@@ -65,7 +65,7 @@ header{
 }
 .hunter-item{
     padding:10px;
-    width:200px;
+    min-width:200px;
     
 }
 .hunter-img{
@@ -92,5 +92,12 @@ header{
     .hunter-item{
         width:25%
     }
-    
+    .section-content{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .section-small-text{
+        font-size:16px;
+        line-height:1.4em;
+    }
 }
