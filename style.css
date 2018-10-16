@@ -4,7 +4,7 @@ header{
 }
 .section{
     width:100%;
-    padding-bottom:30px;
+    padding-bottom:50px;
 }
 .section-title{
     font-size:30px;
@@ -61,6 +61,7 @@ header{
 .hunter-item-wrap{
     display:flex;
     overflow:scroll;
+    
 }
 .hunter-item{
     padding:10px;
@@ -68,7 +69,7 @@ header{
     
 }
 .hunter-img{
-    width:200px;
+   width:100%;
     height:100px;
     background-position:50% 50%;
     background-size:100% auto;
@@ -79,4 +80,17 @@ header{
     font-size:14px;
     padding:5px;
     border:1px solid #eee;
+}
+
+@media screen and (min-width:640px){
+    .hunter-item-wrap{
+        flex-wrap:wrap;
+        overflow:show;
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .hunter-item{
+        width:25%
+    }
+    
 }
