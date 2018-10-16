@@ -1,6 +1,10 @@
 header{
-    height:70px;
+    height:60px;
     background:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
 }
 .section{
     width:100%;
@@ -39,7 +43,7 @@ header{
 #first{
     background-image:url('./resources/main.png');
     
-    background-size: auto 100%;
+    background-size: 100% 100%;
     min-height:500px;
     background-repeat: no-repeat
 }
@@ -69,7 +73,7 @@ header{
     
 }
 .hunter-img{
-   width:100%;
+    width:100%;
     height:100px;
     background-position:50% 50%;
     background-size:100% auto;
@@ -85,11 +89,12 @@ header{
 @media screen and (min-width:640px){
     .hunter-item-wrap{
         flex-wrap:wrap;
-        overflow:show;
+        overflow:auto;
         padding-left:30px;
         padding-right:30px;
     }
     .hunter-item{
+        min-width:25%;
         width:25%
     }
     .section-content{
@@ -100,4 +105,29 @@ header{
         font-size:16px;
         line-height:1.4em;
     }
+}
+@media screen and (min-width:1024px){
+    .section{
+        padding-left:10%;
+        padding-right:10%;
+    }
+    .section-content{
+        display:flex;
+    }
+    .section-img{
+        flex:1;
+    }
+    .section-text{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .section-small-text{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
 }
