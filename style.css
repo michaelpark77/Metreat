@@ -1,0 +1,82 @@
+header{
+    height:70px;
+    background:white;
+}
+.section{
+    width:100%;
+    padding-bottom:30px;
+}
+.section-title{
+    font-size:30px;
+    font-weight:300;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:20px;
+    line-height:1.4em;
+    /* color:#333; */
+}
+
+.section-content{
+
+}
+.section-img{
+    padding:20px;
+}
+.section-text{
+    font-size:18px;
+    padding:10px;
+    
+    text-align:center;
+    line-height:1.4em;
+    font-weight:400;
+}
+.section-small-text{
+    font-size:14px;
+    text-align:center;
+    padding-left:30px;
+    padding-right:30px;
+}
+#first{
+    background-image:url('./resources/first-small.png');
+    width:100%;
+    background-size: 100% auto;
+    min-height:500px;
+    background-repeat: no-repeat
+}
+#first-title{
+    padding-top:50px;
+    text-align: center;
+    font-size:25px;
+    line-height:1.4em;
+    /* color:#333; */
+    font-weight:350
+}
+#first-bottom{
+    padding-top:260px;
+    text-align: center;
+    font-size:25px;
+    line-height:1.4em;
+    font-weight:300
+}
+.hunter-item-wrap{
+    display:flex;
+    overflow:scroll;
+}
+.hunter-item{
+    padding:10px;
+    width:200px;
+    
+}
+.hunter-img{
+    width:200px;
+    height:100px;
+    background-position:50% 50%;
+    background-size:100% auto;
+}
+.hunter-text{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:14px;
+    padding:5px;
+    border:1px solid #eee;
+}
